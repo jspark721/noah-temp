@@ -1686,7 +1686,7 @@
 
 		header.special h2 + p {
 			margin-bottom: 0;
-			padding-top: 1.5em;
+			padding: 1.5em 2.8em 0 2.8em;
 		}
 
 		header.special .icon {
@@ -2723,7 +2723,7 @@
 				}
 
 				header.special h2 + p {
-					padding-top: 1.25em 4em 0 4em;
+					padding-top: 1.25em;
 				}
 
 		/* Section/Article */
