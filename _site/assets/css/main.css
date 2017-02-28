@@ -2514,6 +2514,10 @@
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
+		#footer .info {
+			font-size: 0.9em;
+			padding-bottom: 2em;
+		}
 
 		#footer .copyright {
 			font-size: 0.8em;
@@ -2522,6 +2526,8 @@
 
 			#footer .copyright a {
 				color: inherit;
+				text-transform: uppercase;
+				font-size: 0.7em;
 			}
 
 			#footer .copyright li {
