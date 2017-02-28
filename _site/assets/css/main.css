@@ -2065,17 +2065,18 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #3FB0DF;
-			border-color: #3FB0DF;
-			color: #fff !important;
+			background: #ffffff;
+			border-color: #ffffff;
+			color: #3FB0DF !important;
 		}
 
 			input[type="button"].special:hover,
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: rgba(73, 149, 209, .8) !important;
+				border-color: #ffffff !important;
+				color: #ffffff !important;
 			}
 
 		input[type="button"].fit,
@@ -2104,10 +2105,18 @@
 		.wrapper.style1 {
 			padding: 0;
 		}
+			.wrapper.style1 h3{
+				font-weight: 500;
+			}
+			.wrapper.style1 span.icon {
+				color: #4995d1;
+				opacity: .9;
+			}
 
 		.wrapper.style2 {
 			background-color: #4995d1;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			opacity: .9;
+			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2394,11 +2403,13 @@
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #4995d1;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.png");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-color: #ffffff;
+		background-image: linear-gradient(rgba(73, 149, 209, .9),
+                    	rgba(0, 0, 0, 0.2)),
+											url("../../images/bg.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		cursor: default;
 		padding: 10em 0;
@@ -2414,8 +2425,7 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(54, 75, 149, 0);
-			border: solid 2px;
+			background: rgba(73, 149, 209, 0);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2435,7 +2445,6 @@
 					/* border-bottom: solid 1px; */
 					font-size: 2.5em;
 					font-weight: 900;
-					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
@@ -2446,6 +2455,18 @@
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
+			}
+
+			#banner a.button{
+				background-color: #ffffff;
+				color: #4995d1;
+				border: none;
+			}
+
+			#banner a.button:hover {
+				background-color: #4995d1;
+				color: #ffffff;
+				opacity: .8;
 			}
 
 				#banner .inner p a {
@@ -2494,7 +2515,7 @@
 	#cta {
 		background-attachment: fixed;
 		background-color: #4995d1;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.png");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2684,7 +2705,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: cover;
 			}
 
 		/* Main */
@@ -3126,7 +3147,7 @@
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				background-size: cover;
 				padding: 6em 0;
 			}
 
