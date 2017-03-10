@@ -2025,6 +2025,13 @@
 				color: #fff;
 			}
 
+#first-container {
+	background-image: linear-gradient(rgba(73, 149, 209, 1),
+										rgba(73, 149, 209, .3)),
+										url("../../images/bg.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
 /* Button */
 
 	input[type="button"],
