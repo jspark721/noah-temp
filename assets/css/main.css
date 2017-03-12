@@ -1805,13 +1805,19 @@
 
 		.image.featured {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 3.5em 2em 3.5em;
 		}
 
 			.image.featured img {
 				display: block;
 				width: 100%;
+				border-radius: 1em;
 			}
+
+.products p {
+	margin: 0 2em;
+	font-size: .9em;
+}
 
 /* Icon */
 
