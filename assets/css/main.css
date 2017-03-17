@@ -2153,8 +2153,10 @@
 		input[type="reset"].small,
 		.button.small {
 			font-size: 0.7em;
-			min-width: 14em;
-			padding: 0.5em 0;
+			min-width: 9em;
+			padding: 0 1em;
+			font-weight: lighter;
+			line-height: 2.3em;
 		}
 
 /* Wrapper */
@@ -2853,9 +2855,11 @@
 			input[type="submit"].small,
 			input[type="reset"].small,
 			.button.small {
-				font-size: 0.8em;
-				min-width: 18em;
-				padding: 0.75em 0;
+				font-size: 0.7em;
+				min-width: 9em;
+				padding: 0 1em;
+				font-weight: lighter;
+				line-height: 2.3em;
 			}
 
 		/* List */
