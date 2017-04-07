@@ -2061,7 +2061,7 @@
 
 #first-container {
 	background-image: linear-gradient(rgba(73, 149, 209, 1),
-										rgba(73, 149, 209, .3)),
+										rgba(50, 100, 189, .5)),
 										url("../../images/bg.jpg");
 	background-size:cover;
 	background-attachment: fixed;
