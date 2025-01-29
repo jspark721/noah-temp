@@ -269,7 +269,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.0)
     rouge (3.30.0)
-    rubyzip (3.4.1)
+    rubyzip (2.4.1)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -303,3 +303,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+
+RUBY VERSION
+   ruby 3.4.1p0
+
+BUNDLED WITH
+   2.6.3
